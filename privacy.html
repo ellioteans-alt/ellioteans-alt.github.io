@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reachwell privacy policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav>
+</header>
+
+<h1>Privacy policy</h1>
+<p class="muted">Last updated: 23 November 2026</p>
+
+<p>This policy explains what information Reachwell uses, why, and what choices you have. Reachwell is operated
+privately by its developer for a small number of clients. Questions: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+<h2>1. Google account data (clients who connect Gmail)</h2>
+<p>A client connects his own Gmail account so that Reachwell can put email drafts in his Drafts folder.
+Reachwell requests one Google permission: <code>https://www.googleapis.com/auth/gmail.compose</code> (manage drafts).</p>
+<p>Reachwell uses this permission only to:</p>
+<ul>
+<li>create a draft email in the client's Drafts folder;</li>
+<li>read back details of a draft it created (the "From" line Gmail saved, and whether the draft still exists), so the client
+and the operator can confirm the draft is correct or has been sent or deleted;</li>
+<li>read the email address of the connected account, to show which account is connected.</li>
+</ul>
+<p>Reachwell does <strong>not</strong> read, search or delete messages in the inbox, does <strong>not</strong> send email,
+and does not use any other part of the Google account. These are the only Gmail requests the software makes.</p>
+
+<h2>2. What Reachwell stores</h2>
+<ul>
+<li>The Google sign-in token, kept on the operator's own computer, outside any shared storage. It is never shared.</li>
+<li>For each draft it created: the Gmail draft and message ID, the "From" line Gmail saved, the time, and a fingerprint (hash)
+of the draft text. This is a log of what was put in the client's Drafts folder.</li>
+</ul>
+<p>Reachwell does not store the content of any other email in the client's Gmail.</p>
+
+<h2>3. How Google data is used and shared</h2>
+<p>Google account data is used only to provide the drafting feature described above, for the client who connected the account.
+It is not sold, not shared with anyone else, not used for advertising, and not used to train AI or machine-learning models.</p>
+<p>Reachwell's use and transfer of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</p>
+
+<h2>4. Information about businesses Reachwell contacts</h2>
+<p>To find prospects, Reachwell uses public information only: the business's own website (home, about, contact, location and
+menu pages, while respecting each site's robots.txt) and official public records. It uses business contact details only,
+never personal email addresses, and never guesses email addresses. Google Places is used only to find businesses and
+their websites; Reachwell keeps only Google's place ID for each business.</p>
+<p>If you received an email drafted with Reachwell and do not want further contact, reply and say so in any words.
+Your address is added to a do-not-contact list and is never emailed again. That list is kept so the request can be honored.</p>
+
+<h2>5. Your choices</h2>
+<ul>
+<li>A client can disconnect Reachwell at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. The operator then deletes the stored token.</li>
+<li>Anyone can ask what information Reachwell holds about them, or ask for it to be deleted, by writing to
+<a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>. A do-not-contact entry is kept only to keep honoring an opt-out.</li>
+</ul>
+
+<h2>6. Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+<footer><a href="./">Reachwell</a> · <a href="terms.html">Terms of service</a></footer>
+</main>
+</body>
+</html>
